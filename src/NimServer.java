@@ -30,7 +30,7 @@ public class NimServer {
      */
     public static void main(String[] args) {
         // check args are right
-        if(args.length < 2j ){
+        if(args.length < 2 ){
             System.err.println(USAGE);
             System.exit(1);
         }
